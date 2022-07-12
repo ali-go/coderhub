@@ -1,0 +1,25 @@
+{
+  "name": "coderhub",
+  "version": "1.0.0",
+  "description": "这是一个基于nodejs的服务器项目，服务请求封装基于koa",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "jimp": "^0.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^11.0.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.18"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./src/main.js",
+    "start": "nodemon ./src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
